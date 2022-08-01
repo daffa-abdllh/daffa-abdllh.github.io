@@ -1,5 +1,9 @@
+.navbar, footer {
+    background-color: #07575b;
+}
+
 .jumbotron, #projects, #contact {
-    background-color: #e2edff;
+    background-color: #c4dfe6;
 }
 
 section {
