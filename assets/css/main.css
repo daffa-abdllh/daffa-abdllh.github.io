@@ -466,7 +466,7 @@ section {
 }
 
 @media (min-width: 1200px) {
-  .about .icon-box:hover {
+  .about .icon-box:hover, .projects .card:hover {
     transform: scale(1.1);
   }
 }
@@ -487,6 +487,12 @@ section {
 #projects h4, #projects p {
   color: #fff;
   margin-bottom: 5px;
+}
+
+@media (min-width: 1200px) {
+  .projects .card:hover {
+    transform: scale(1.06);
+  }
 }
 
 /*--------------------------------------------------------------
