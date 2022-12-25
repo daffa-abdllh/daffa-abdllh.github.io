@@ -14,6 +14,10 @@ form.addEventListener('submit', e => {
         loading.classList.toggle('d-none');
         alert.classList.toggle('d-none');
         form.reset();
+
+        setTimeout(() => {
+            alert.classList.toggle('d-none');
+        }, 5000);
         console.log('Success!', response);
     })
     .catch(error => console.error('Error!', error.message))
